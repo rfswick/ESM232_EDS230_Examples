@@ -47,7 +47,10 @@ filled.contour(res$qin, xlab = "Time", ylab = "Distance")
 
 
 # play with time step, space step and parameters
+dif <- diff1(initialC = 100, nx = 10, dx = 1, nt = 10, dt = 30, D = 0.01, area = 10)
+filled.contour(dif$conc, xlab = "Time", ylab = "Distance")
 ```
 
 # 1. Play with time step, space step and parameters
+
 # 2. Design different ways to summarize and visualize output 
